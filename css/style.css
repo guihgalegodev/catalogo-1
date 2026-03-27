@@ -1,0 +1,14 @@
+body {
+  background-color: aqua;
+}
+
+.detalhes {
+  opacity: 0;
+  max-height: 0px;
+  transition: 0.8s;
+}
+
+.detalhes.ativo {
+  opacity: 1;
+  max-height: 200px;
+}
